@@ -1,20 +1,62 @@
-*{
+* {
   padding: 0px;
   margin: 0px;
-  font-family: "Slabo 27px", serif;
-}
-.fade-in {
-  animation: fadeIn 8s;
+  font-family: "Cormorant", serif;
+  /* background-color: black; */
 }
 
-@keyframes fadeIn{
-  0%{
-      transform: translateX(600px);
+
+.timeline {
+  position: relative;
+  padding-left: 30px;
+  border-left: 3px solid red;
+}
+
+.timeline-item {
+  position: relative;
+  margin-bottom: 40px;
+}
+
+.timeline-dot {
+  position: absolute;
+  left: -40px;
+  top: 0;
+  width: 16px;
+  height: 16px;
+  background-color: red;
+  border-radius: 50%;
+}
+
+
+.skill:hover {
+  transform: scale(1.1);
+}
+
+.fade-in {
+  animation: fadeIn 5s;
+}
+
+@keyframes fadeIn {
+  0% {
+    transform: translateX(500px);
   }
-  50%{
-      transform: translateX(-100px);
+
+  50% {
+    transform: translateX(-50px);
   }
-  100%{
-      transform: translate(-100);
+
+  100% {
+    transform: translate(-100);
   }
+}
+
+.headersec:hover {
+  transform: scale(1.1);
+  background-color: brown;
+}
+.profile:hover{
+  transform: scale(1.5);
+}
+.headersec:hover p{
+  color: aliceblue;
 }

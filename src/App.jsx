@@ -7,17 +7,18 @@ import Home from './pages/Home'
 import About from './components/About'
 import Skills from './components/Skills'
 import Project from './pages/Project'
+import Contact from './components/Contact'
 
 function App() {
 
   return (
     <>
-    <Header/>
     <Routes>
       <Route path='/' element={<Home/>}/>
       <Route path='/about' element={<About/>}/>
       <Route path='/skill' element={<Skills/>}/>
       <Route path='/project' element={<Project/>}/>
+      <Route path='/contact' element ={<Contact/>} />
 
 
     </Routes>
