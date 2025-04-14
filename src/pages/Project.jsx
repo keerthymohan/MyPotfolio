@@ -13,6 +13,7 @@ import parking from '../assets/parking.png'
 import health from '../assets/health.png'
 import cart from '../assets/cart.png'
 import flower from '../assets/flower.png'
+import portfolio from '../assets/portfolio.png'
 import Header from '../components/Header';
 
 function Project() {
@@ -30,6 +31,24 @@ function Project() {
               <h5 className='text-warning fs-3 fw-bolder'>MY PROJECTS</h5>
               <div className='container border border-secondary rounded p-2'>
                 <div className="row p-2">
+
+                <div className="col-md-4 mt-4">
+                    <div style={{ backgroundColor: ' rgb(25, 24, 24)',height:'440px' }} className='p-3'>
+                      <img src={portfolio} alt="" style={{ height: '100px' }} className='w-100' />
+                      <h4 className='mt-2 text-light'>MY PORTFOLIO</h4>
+                      <p className='text-white mt-3'>Build my ppersonal portfolio website using HTML, and React</p>
+                      <div className='d-flex flex-wrap align-items-center justify-content-between mt-3'>
+                      <p className='bg-dark rounded p-2 text-white'>React</p>
+                        <p className='bg-dark rounded p-2 text-white'>HTML</p>
+                        <p className='bg-dark rounded p-2 text-white'>Bootstrap</p>
+                        <p className='bg-dark rounded p-2 text-white'>CSS</p>
+                      </div>
+                      <div className='d-flex align-items-center'>
+                        <a href="https://github.com/keerthymohan/MyPotfolio" target='_blank'><FontAwesomeIcon icon={faGithub} className='fa-xl text-warning' /></a>
+                        <a href="https://portfoliowebsite-eight-omega.vercel.app/" target='_blank'><FontAwesomeIcon icon={faGlobe} className='ms-5 fa-xl text-warning'  /></a>
+                      </div>
+                    </div>
+                  </div>
 
                 <div className="col-md-4 mt-4">
                     <div style={{ backgroundColor: ' rgb(25, 24, 24)',height:'440px' }} className='p-3'>
