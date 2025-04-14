@@ -37,11 +37,9 @@ function Project() {
                       <img src={portfolio} alt="" style={{ height: '100px' }} className='w-100' />
                       <h4 className='mt-2 text-light'>MY PORTFOLIO</h4>
                       <p className='text-white mt-3'>Build my ppersonal portfolio website using HTML, and React</p>
-                      <div className='d-flex flex-wrap align-items-center justify-content-between mt-3'>
+                      <div className='d-flex flex-wrap align-items-center justify-content-evenly mt-3'>
                       <p className='bg-dark rounded p-2 text-white'>React</p>
-                        <p className='bg-dark rounded p-2 text-white'>HTML</p>
                         <p className='bg-dark rounded p-2 text-white'>Bootstrap</p>
-                        <p className='bg-dark rounded p-2 text-white'>CSS</p>
                       </div>
                       <div className='d-flex align-items-center'>
                         <a href="https://github.com/keerthymohan/MyPotfolio" target='_blank'><FontAwesomeIcon icon={faGithub} className='fa-xl text-warning' /></a>
@@ -128,11 +126,9 @@ function Project() {
                       <img src={bmi} alt="" style={{ height: '100px' }} className='w-100' />
                       <h4 className='mt-2 text-light'>BMI Calculator</h4>
                       <p className='text-white mt-3'>BMI Calculator using HTML,CSS, Bootstrap and React</p>
-                      <div className='d-flex flex-wrap align-items-center justify-content-between mt-3'>
+                      <div className='d-flex flex-wrap align-items-center justify-content-evenly mt-3'>
                       <p className='bg-dark rounded p-2 text-white'>React</p>
-                        <p className='bg-dark rounded p-2 text-white'>HTML</p>
                         <p className='bg-dark rounded p-2 text-white'>Bootstrap</p>
-                        <p className='bg-dark rounded p-2 text-white'>CSS</p>
                       </div>
                       <div className='d-flex align-items-center'>
                         <a href="https://github.com/keerthymohan/bmi_calculator" target='_blank'><FontAwesomeIcon icon={faGithub} className='fa-xl text-warning' /></a>
@@ -146,7 +142,7 @@ function Project() {
                       <img src={flower} alt="" style={{ height: '100px' }} className='w-100' />
                       <h4 className='mt-2 text-light'>Flower Shop</h4>
                       <p className='text-white mt-3'>Designed a flower shop website designed using HTML and Tailwind CSS.</p>
-                      <div className='d-flex flex-wrap align-items-center justify-content-between mt-3'>
+                      <div className='d-flex flex-wrap align-items-center justify-content-evenly mt-3'>
                         <p className='bg-dark rounded p-2 text-white'>HTML</p>
                         <p className='bg-dark rounded p-2 text-white'>Tailwind CSS</p>
                       </div>
@@ -182,9 +178,7 @@ function Project() {
                       <p className='text-white mt-3'>Responsive E-cart designed using Redux and react</p>
                       <div className='d-flex flex-wrap align-items-center justify-content-between mt-3'>
                       <p className='bg-dark rounded p-2 text-white'>Redux</p>
-                        <p className='bg-dark rounded p-2 text-white'>HTML</p>
                         <p className='bg-dark rounded p-2 text-white'>Bootstrap</p>
-                        <p className='bg-dark rounded p-2 text-white'>CSS</p>
                         <p className='bg-dark rounded p-2 text-white'>React</p>
                       </div>
                       <div className='d-flex align-items-center'>
@@ -219,9 +213,7 @@ function Project() {
                       <p className='text-white mt-3'>Developed a parking slot booking using React</p>
                       <div className='d-flex flex-wrap align-items-center justify-content-between mt-3'>
                         <p className='bg-dark rounded p-2 text-white'>React</p>
-                        <p className='bg-dark rounded p-2 text-white'>HTML</p>
                         <p className='bg-dark rounded p-2 text-white'>Bootstrap</p>
-                        <p className='bg-dark rounded p-2 text-white'>CSS</p>
                         <p className='bg-dark rounded p-2 text-white'>Axios</p>
                       </div>
                       <div className='d-flex align-items-center'>
